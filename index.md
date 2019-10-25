@@ -41,11 +41,11 @@ will be certified to teach [Software Carpentry]({{ site.swc_site }}), [Data Carp
     (though of course they should know enough about the subjects of one or more of our lessons
     to be able to teach them).
 
-Feedback on these materials is welcome as an [issue][issues] on the Github repository that hosts this site.
+Feedback on these materials is welcome as an [issue][issues] on the GitHub repository that hosts this site.
 
 **These materials are freely available under a [Creative Commons license][license].**
 
 [application-form]: https://amy.software-carpentry.org/forms/request_training/
-[conduct]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html#code-of-conduct
+[conduct]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html
 [license]: {{ page.root }}/LICENSE.html
 [issues]: {{ site.github.repository_url }}/issues

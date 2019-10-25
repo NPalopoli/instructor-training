@@ -2,8 +2,8 @@
 layout: page
 title: "Checkout Procedure"
 calendar: https://calendar.google.com/calendar/embed?src=oseuuoht0tvjbokgg3noh8c47g%40group.calendar.google.com
-demopad: https://pad.carpentries.org/teaching-demos-recovered
-discussionpad: http://pad.software-carpentry.org/instructor-discussion
+demopad: https://pad.carpentries.org/teaching-demos
+discussionpad: http://pad.software-carpentry.org/community-discussions
 ---
 
 ## Brief Overview and Rationale
@@ -13,11 +13,12 @@ you must go through these three steps to complete your training and be
 fully certified as a Carpentries instructor:
 
 1.  Make (and [send us a link to](mailto:{{ site.email }})) a [contribution to a lesson's content, exercises, or instructor's guide](#lesson-change).
-2.  Take part in an online [discussion session](#discussion-session).
+2.  Take part in an online [community discussion session](#discussion-session).
 3.  Teach a short [demonstration lesson](#demo-lesson) online.
 
 Tasks are listed in the order most of our instructor trainees complete the checkout process, but
-you can complete them in any order.
+you can complete them in any order. Trainees will receive a certificate of completion approximately 
+two weeks after completing all the requirements. 
 
 These checkout steps aim to introduce you to key components of being a Carpentries instructor that are difficult to fully cover in the classroom
 setting of the two-day training.  These are:
@@ -27,13 +28,14 @@ setting of the two-day training.  These are:
     to our materials, particularly so that you can contribute in the future.
 
 2.  Participating in the larger Carpentry instructor community.  We
-    include the discussion session in the checkout because we hear
+    include the community discussion session in the checkout because we hear
     from many instructors that one of their favorite aspects of being a
     Carpentry instructor is meeting and talking with other instructors in the community.
 
 3.  Practicing and confirming the skills you need to teach on your own.  Before
     signing up for a workshop, you will have practiced preparing a lesson and
     doing a brief session of live coding.
+
 
 Trainees will have three months to complete the checkout exercises. Extensions may be granted at the discretion of Carpentries staff
 and must be requested before the three months are up. To request an extension, please [contact us](mailto:{{ site.email }}).
@@ -57,14 +59,16 @@ Trainees must make a contribution to a lesson's content, exercises, or instructo
 2. Submitting a change to fix an existing issue.
 3. Proof-reading a lesson and adding a new issue describing something to be improved.
 
-Contributions to Data Carpentry materials may be submitted through GitHub or by [email](mailto:{{ site.email }}).
-Contributions to Software Carpentry materials must be submitted through GitHub.
+Contributions to Data Carpentry and Library Carpentry materials may be submitted through GitHub or by [email](mailto:{{ site.email }}). Contributions to Software Carpentry materials must be submitted through GitHub.
 
 Each lesson has a CONTRIBUTING.md file in its repository on GitHub. This file explains best practices for contributing
-to that lesson. You can access a lesson's GitHub repository by clicking on the GitHub kitty icon in the "Repository" column for that
-lesson on the lesson page. For Data Carpentry this is [www.datacarpentry.org/lessons/]({{ site.dc_site }}/lessons/). For Software Carpentry this is
-[www.software-carpentry.org/lessons/]({{ site.swc_site }}/lessons/). Please follow the guidelines in the appropriate CONTRIBUTING.md file when making lesson
-contributions.
+to that lesson. You can access a lesson's GitHub repository by clicking on the GitHub kitty icon in the "Repository" column for that lesson on the lesson page. The lesson pages can be found at:  
+
+* [https://datacarpentry.org/lessons/]({{ site.dc_site }}/lessons/)
+* [https://software-carpentry.org/lessons/]({{ site.swc_site }}/lessons/)
+* [https://librarycarpentry.org/lessons/]({{ site.lc_site }}/lessons/) 
+
+Please follow the guidelines in the appropriate CONTRIBUTING.md file when making lesson contributions.
 
 Please note that:
 
@@ -111,19 +115,23 @@ Please note that:
     we would like our current learning objectives to be checked against the actual lesson content,
     and to be framed in terms of observables
     (e.g., "Learner will be able to do X") rather than intangibles (e.g., "Learner will appreciate X").
+    
+For more details on the workflow of how to contribute via GitHub, see this
+community [contributed guide](https://github.com/dmgt/swc_github_flow/blob/master/for_novice_contributors.md)
 
-## Part 2: Take Part in An Online Discussion Session
+## Part 2: Take Part in An Online Community Discussion Session
 <a name="discussion-session"></a>
 
-The next step is to take part in an hour-long discussion session
+The next step is to take part in an hour-long community discussion session
 led by an experienced instructor.
-This session gives you a chance to ask questions about the material
+These sessions gives you a chance to ask questions about the material
 you plan on teaching
 and to clarify anything that may be unclear about our operations in general.
 
-Our discussion sessions are run as video conferences several times per week:
+
+Our community discussion sessions are run as video conferences several times per week:
 please see our [Community Calendar]({{page.calendar}}) for times.
-You can sign up for a session on [the discussion Etherpad]({{page.discussionpad}});
+You can sign up for a session on [the community discussions Etherpad]({{page.discussionpad}});
 if none of the available times work for you,
 or if you need any special arrangements,
 please [let us know](mailto:{{ site.email }})
@@ -186,7 +194,7 @@ The final step is to sign up for a 5-minute demonstration online using
 [the teaching demo schedule Etherpad]({{page.demopad}})
 (or add yourself to the top of the pad if none of the available times work for you).
 
-The link to connect to the video conference is at the top of the Etherpad.
+The link to connect to the video conference is at the top of the Etherpad. 
 Please be sure to use a headset with a built-in microphone during the session
 rather than open-air speakers and your laptop's built-in microphone,
 since the latter often lead to audio quality problems.
@@ -197,11 +205,13 @@ If you want to do your demonstration in a language other than English,
 please let us know in advance so that we can attempt to find someone to moderate.
 We may not be able to accommodate all languages.
 
-For your teaching demonstration, you will teach a short segment from your chosen lesson(s).
-We will pick the segment of the lesson(s) you are to teach
-on the day of the demonstration,
-so you must be prepared to teach any part of your chosen lesson(s).
-You can refer to the lists of [Software Carpentry lessons](https://software-carpentry.org/lessons/), [Data Carpentry lessons](http://www.datacarpentry.org/lessons/), and [Library Carpentry](https://librarycarpentry.org/) on the websites.
+For your teaching demonstration, you will prepare to teach a lesson from one of the
+Carpentries lesson programs. You will be asked to teach a short segment from your chosen lesson from this 
+[list of suggested episodes](https://carpentries.github.io/instructor-training/demo_lessons/index.html). 
+The host of the session will pick a segment of the lesson for you to teach on the day of the 
+demonstration, so you must be prepared to teach any part of your chosen lesson.
+
+You can refer to the lists of [Software Carpentry lessons](https://software-carpentry.org/lessons/), [Data Carpentry lessons](http://www.datacarpentry.org/lessons/), and [Library Carpentry lessons](https://librarycarpentry.org/lessons/) on the websites.
 A lesson corresponds to a single line in the lesson table and a single repository in GitHub. Some lessons have supplementary modules.
 You do not need to be prepared to teach the supplementary modules for your teaching demonstration.  
 
@@ -214,9 +224,7 @@ and live code as if your computer was plugged into a projector
 and you were standing in front of a class.
 You may use whatever notes you want,
 provided they are not visible on your screen.
-You are *not* to read the lesson aloud line by line:
-instead,
-you are to teach as you would in an actual workshop.
+Please teach as you would in an actual workshop.
 When your five minutes are up,
 the trainer leading the session will call time,
 and then you and everyone else taking part in the session will give feedback on your teaching
@@ -231,7 +239,7 @@ we will send you your certificate
 and instructions on how to add yourself to the teaching roster and our website.
 If for any reason the trainer leading the session feels that you should try again,
 you will be told what to focus on
-and when and where to sign up for another session.
+and when and where to sign up for another session. Here is a [rubric](https://carpentries.github.io/instructor-training/demos_rubric/) made available to Trainers to aid with scoring. 
 
 ## Contacting Us
 
